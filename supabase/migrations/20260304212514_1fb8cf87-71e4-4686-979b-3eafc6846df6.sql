@@ -1,0 +1,1 @@
+ALTER TABLE public.agent_tools ALTER COLUMN tool_id DROP NOT NULL;

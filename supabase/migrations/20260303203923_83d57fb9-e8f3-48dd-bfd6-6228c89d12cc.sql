@@ -1,0 +1,5 @@
+ALTER TABLE public.orgs
+  ADD COLUMN IF NOT EXISTS timezone TEXT DEFAULT 'UTC',
+  ADD COLUMN IF NOT EXISTS webhook_url TEXT,
+  ADD COLUMN IF NOT EXISTS webhook_secret TEXT,
+  ADD COLUMN IF NOT EXISTS notification_prefs JSONB DEFAULT '{}'::jsonb;

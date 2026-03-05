@@ -1,0 +1,31 @@
+project_id = "aimxmxldndrlgfgpxxzh"
+
+[functions.run-agent]
+verify_jwt = false
+
+[functions.tool-proxy]
+verify_jwt = false
+
+[functions.scheduler-tick]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.mcp-test-runner]
+verify_jwt = false
+
+[functions.google-oauth-start]
+verify_jwt = false
+
+[functions.google-oauth-callback]
+verify_jwt = false
+
+[functions.workflow-webhook]
+verify_jwt = false
+
+[functions.generate-weekly-report]
+verify_jwt = false
+
+[functions.mcp-server]
+verify_jwt = false
