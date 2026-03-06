@@ -27,6 +27,7 @@ export default tseslint.config(
       "@typescript-eslint/no-require-imports": "off",
       "no-empty": "warn",
       "no-unused-expressions": "warn",
+      "@typescript-eslint/no-unused-expressions": "warn",
       "no-useless-escape": "warn",
       "prefer-const": "warn",
     },
